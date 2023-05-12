@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+
+</head>
+
+<body>
+    <div class="content">
+        <h1 id="textDisplay">{{ .Name }}</h1>
+        <form action="/" method="POST">
+            <!-- 
+            <lable for="bindChar">Bind charachter</lable>
+            <select type="hidden" name="bindChar">
+                <option type="hidden" selected="selected">
+                    {{ .BindChar }}
+                </option>
+                <option value=" "></option>
+                <option value="-">-</option>
+                <option value="_">-</option>
+                <option value="+">+</option>
+                <option value=".">.</option>
+            </select>-->
+            <br />
+            <lable for="numberOfWords">Number Of Words </lable>
+            <br/>
+            <select name="numberOfWords">
+                <option type="hidden" selected="selected">
+                    {{ .NumberOfWords }}
+                </option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="8">8</option>
+                <option value="16">16</option>
+                <option value="32">32</option>
+                <option value="64">64</option>
+
+            </select>
+            <br />
+            <!-- <lable name="numberPos">Number Position</lable>
+            <select name="numberPos">
+                <option type="hidden" selected="selected">
+                    {{ .NumberPos }}
+                </option>
+                <option value=" "> </option>
+                <option value="last">last</option>
+                <option value="first">first</option>
+            </select>
+            <br />
+            <lable name="casing">Casing</lable>
+            <select name="casing">
+                <option type="hidden" selected="selected" value="{{ .Casing }}">
+                    {{ .Casing}}
+                </option>
+                <option value="0">Lower</option>
+                <option value="1">upper</option>
+                <option value="2">Capital</option>
+            </select>-->
+            <br /><br />
+            <button class="button-30">Generate</button>
+            <button id="buttonCopy" class="button-30" onClick="myFunction()" hidden="hidden">Copy text</button>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+
+</html>
