@@ -1,11 +1,9 @@
 # password-maker
 Lösenordsgenerator för extremt starka lösenord, som samtidigt är enkla att minnas 
 
-- Bakgrund och motiv
+Bakgrund och motiv
 
-Detta program generar starka lösenord menat att användas för svensktalande användare. Programmet är inspirerat av NIST lösenordsstandard, vilken uppmuntrar lösenord uppbyggda av flera ihopsatta ord. Detta ger komplexta lösenord som samtidigt är enkla för en människa att minnas. Dessa principer har i detta program anamats och vidareutvecklats, med målet att generera komplexa lösenord, som samtidigtär lätta att minnas och återge.
-
-- Processen för att generera lösenord
+- Detta program generar starka lösenord menat att användas för svensktalande användare. Programmet är inspirerat av NIST lösenordsstandard, vilken uppmuntrar lösenord uppbyggda av flera ihopsatta ord. Detta ger komplexta lösenord som samtidigt är enkla för en människa att minnas. Dessa principer har i detta program anamats och vidareutvecklats, med målet att generera komplexa lösenord, som samtidigtär lätta att minnas och återge.
 
 Standardversionen av detta program avser att:
 
