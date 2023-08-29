@@ -1,3 +1,5 @@
+Tillgänglig på pwdmkr.fredrikfischer.se
+
 # password-maker
 Lösenordsgenerator för extremt starka lösenord, som samtidigt är enkla att minnas 
 
